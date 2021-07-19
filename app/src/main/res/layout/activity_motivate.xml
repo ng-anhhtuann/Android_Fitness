@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="16dp"
+        android:src="@drawable/motivate_3rd" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="24dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/all_backbtn" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="What motivates you\nthe most?"
+        android:textColor="@color/colorBlack"
+        android:textSize="30dp"
+        android:layout_marginBottom="60dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/first"
+        android:background="@drawable/motivate_purple_1stbtn"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/second"
+        android:background="@drawable/motivate_grey_2ndbtn"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/third"
+        android:background="@drawable/motivate_grey_3rdbtn"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/forth"
+        android:background="@drawable/motivate_grey_4thbtn"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/next"
+        android:background="@drawable/all_nextbtn"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"/>
+
+</LinearLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BodyAimActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="16dp"
+        app:srcCompat="@drawable/body_2nd" />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="24dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/all_backbtn" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="Which areas need\nthe most attentions?"
+        android:textColor="@color/colorBlack"
+        android:textSize="30dp" />
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp">
+
+        <ImageView
+            android:layout_width="173dp"
+            android:layout_height="339dp"
+            android:layout_x="122dp"
+            android:layout_y="24dp"
+            android:src="@drawable/body_bodyart" />
+
+        <Button
+            android:id="@+id/btn_arm"
+            android:layout_width="96dp"
+            android:layout_height="44dp"
+            android:layout_x="32dp"
+            android:layout_y="0dp"
+            android:background="@drawable/body_grey_arm" />
+
+        <Button
+            android:id="@+id/btn_chest"
+            android:layout_width="96dp"
+            android:layout_height="44dp"
+            android:layout_x="288dp"
+            android:background="@drawable/body_grey_chest" />
+
+        <Button
+            android:id="@+id/btn_legs"
+            android:layout_width="96dp"
+            android:layout_height="44dp"
+            android:layout_x="32dp"
+            android:layout_y="249dp"
+            android:background="@drawable/body_grey_leg" />
+
+        <Button
+            android:id="@+id/btn_abs"
+            android:layout_width="96dp"
+            android:layout_height="44dp"
+            android:layout_x="288dp"
+            android:layout_y="200dp"
+            android:background="@drawable/body_grey_abs" />
+
+        <Button
+            android:id="@+id/armline"
+            android:layout_width="88dp"
+            android:layout_height="63dp"
+            android:layout_x="77dp"
+            android:layout_y="44dp"
+            android:background="@drawable/body_grey_armline" />
+
+        <Button
+            android:id="@+id/chestline"
+            android:layout_width="113dp"
+            android:layout_height="50dp"
+            android:layout_x="222dp"
+            android:layout_y="44dp"
+            android:background="@drawable/body_grey_chestline" />
+
+        <Button
+            android:id="@+id/absline"
+            android:layout_width="111dp"
+            android:layout_height="58dp"
+            android:layout_x="224dp"
+            android:layout_y="142dp"
+            android:background="@drawable/body_grey_absline" />
+
+        <Button
+            android:id="@+id/legline"
+            android:layout_width="100dp"
+            android:layout_height="39dp"
+            android:layout_x="79dp"
+            android:layout_y="209dp"
+            android:background="@drawable/body_grey_legsline" />
+    </AbsoluteLayout>
+
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/all_nextbtn" />
+
+
+</LinearLayout>

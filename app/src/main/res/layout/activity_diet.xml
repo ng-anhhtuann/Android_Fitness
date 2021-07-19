@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DietActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="16dp"
+        android:src="@drawable/diet_9th" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="24dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/all_backbtn" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="60dp"
+        android:gravity="center"
+        android:text="Are you currently\nfollowing a diet?"
+        android:textColor="@color/colorBlack"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/first"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/diet_purple_stardard" />
+
+    <Button
+        android:id="@+id/second"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/diet_grey_vegetarian" />
+
+    <Button
+        android:id="@+id/third"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/diet_grey_vegan" />
+
+    <Button
+        android:id="@+id/forth"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/diet_grey_pescastarian" />
+
+    <Button
+        android:id="@+id/fifth"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/diet_grey_gluten" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/all_nextbtn" />
+
+</LinearLayout>

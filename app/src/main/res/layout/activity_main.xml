@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="119dp"
+        android:layout_height="141dp"
+        android:layout_marginBottom="100dp"
+        android:src="@drawable/loginlogo" />
+
+    <ImageView
+        android:layout_width="332dp"
+        android:layout_height="228dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/loginart" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="283dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/logintext" />
+
+        <Button
+            android:id="@+id/loginapple"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/loginapple" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/loginfb"
+                android:layout_width="170dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left"
+                android:layout_marginEnd="15dp"
+                android:layout_weight="0.5"
+                android:background="@drawable/loginfb" />
+
+            <Button
+                android:id="@+id/logintw"
+                android:layout_width="170dp"
+                android:layout_height="50dp"
+                android:layout_gravity="right"
+                android:layout_weight="0.5"
+                android:background="@drawable/logintwitter" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
